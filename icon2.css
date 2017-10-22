@@ -1,0 +1,151 @@
+/*GENERAL*/
+
+[class^="icon-2"] {
+	height: 100px;
+	width: 100px;
+	margin: 30px;
+	display: inline-block;
+	transform: rotate(-45deg);
+	border-radius: 15px;
+}
+
+[class^="icon-2"] a {
+	line-height: 100px;
+	font-size: 3em;
+	display: block;
+	transform: rotate(45deg);
+	color: #FFF;
+    width: 80px;
+  height: 80px;
+  position: relative;
+  left: 10%;
+  top: 10%;
+
+}
+
+[class^="icon-2"] a i {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  line-height: 100px;
+  position: absolute;
+  top: -11%;
+  left: 0;
+}
+
+.icon-2-face{
+	background-color: #3B5998;
+}
+
+.icon-2-goog{
+	background-color: #DC4A38;
+}
+
+.icon-2-twit{
+	background-color: #1DA1F2;
+}
+
+.icon-2-inst{
+	 background:
+    -webkit-radial-gradient(circle farthest-corner at 35% 90%, #fec564, rgba(0, 0, 0, 0) 50%), 
+    -webkit-radial-gradient(circle farthest-corner at 0 140%, #fec564, rgba(0, 0, 0, 0) 50%), 
+    -webkit-radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, rgba(0, 0, 0, 0) 50%), 
+    -webkit-radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, rgba(0, 0, 0, 0) 50%), 
+    -webkit-radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, rgba(0, 0, 0, 0) 50%), 
+    -webkit-radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, rgba(0, 0, 0, 0) 50%), 
+    -webkit-radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, rgba(0, 0, 0, 0)), 
+    -webkit-linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    
+   background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, rgba(0, 0, 0, 0)), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);}
+
+
+.icon-2-link{
+	background-color: #0077B5;
+}
+
+.icon-2-pint{
+	background-color: #BD081C;
+} 	
+
+/*HOVER*/
+
+[class^="icon-2"]:hover {
+	animation: shake-inverse .6s;
+}
+
+[class^="icon-2"]:hover a {
+	animation: shake .6s;
+}
+
+/*ACTIVE*/
+.icon-2-face:active,
+.icon-2-goog:active,
+.icon-2-twit:active,
+.icon-2-inst:active,
+.icon-2-link:active,
+.icon-2-pint:active {
+	box-shadow: 0px 0px 10px 5px #FFF;
+	transition: .4s;
+}
+
+.icon-2-face:active a,
+.icon-2-goog:active a,
+.icon-2-twit:active a,
+.icon-2-inst:active a,
+.icon-2-link:active a,
+.icon-2-pint:active a {
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px 5px #FFF;
+  transition: .6s;
+}
+.icon-2-link:active {
+box-shadow: 0px 0px 10px 5px #000; 
+}
+
+
+
+/*ANIMATION*/
+
+@keyframes shake-inverse {
+  20% {
+    transform: rotate3d(0, 0, 1, -60deg);
+  }
+
+  40% {
+    transform: rotate3d(0, 0, 1, -35deg);
+  }
+
+  60% {
+    transform: rotate3d(0, 0, 1, -50deg);
+  }
+
+  80% {
+    transform: rotate3d(0, 0, 1, -40deg);
+  }
+
+  100% {
+    transform: rotate3d(0, 0, 1, -45deg);
+  }
+}
+
+@keyframes shake {
+  20% {
+    transform: rotate3d(0, 0, 1, 75deg);
+  }
+
+  40% {
+    transform: rotate3d(0, 0, 1, 25deg);
+  }
+
+  60% {
+    transform: rotate3d(0, 0, 1, 55deg);
+  }
+
+  80% {
+    transform: rotate3d(0, 0, 1, 35deg);
+  }
+
+  100% {
+    transform: rotate3d(0, 0, 1, 45deg);
+  }
+}

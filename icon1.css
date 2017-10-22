@@ -1,0 +1,79 @@
+/*GENERAL*/
+
+[class^="icon-1"] {
+	height: 100px;
+	width: 100px;
+	margin: 15px;
+	display: inline-block;
+
+}
+
+[class^="icon-1"] a {
+	height: 100px;
+	line-height: 100px;
+	width: 100px;
+	text-align: center;
+	color: #FFF;
+	background-color: #000;
+	font-size: 3.5em;
+	display: inline-block;
+	margin: 0;
+	transition-duration: .7s;
+	border-radius: 15px;
+}
+
+
+/*HOVER*/
+
+main [class^="icon-1"]:hover a {
+	background-color: #FFF;
+	transform:rotateY(360deg);
+	border-radius: 50%;
+}
+
+main [class^="icon-1-face"]:hover a {
+	box-shadow: 0 0 15px 8px #3B5998;
+	color: #3B5998;
+}
+
+main [class^="icon-1-goog"]:hover a {
+	box-shadow: 0 0 15px 8px #DC4A38;
+	color: #CF3030;
+}
+
+main [class^="icon-1-twit"]:hover a {
+	box-shadow: 0 0 15px 8px #1DA1F2;
+	color: #1696F2;
+}
+
+main [class^="icon-1-inst"]:hover a {
+	box-shadow: 0 0 15px 8px #e4405f;
+	color: #e4405f;
+}
+
+main [class^="icon-1-link"]:hover a {
+	box-shadow: 0 0 15px 8px #0077B5;
+	color: #000;
+}
+
+main [class^="icon-1-pint"]:hover a {
+	box-shadow: 0 0 15px 8px #BD081C;
+	color: #ED2424;
+}
+
+/*ACTIVE*/
+
+main [class^="icon-1-face"]:active a,
+main [class^="icon-1-goog"]:active a,
+main [class^="icon-1-twit"]:active a,
+main [class^="icon-1-inst"]:active a,
+main [class^="icon-1-link"]:active a,
+main [class^="icon-1-pint"]:active a {
+	background-color: #fff;
+	box-shadow: 0 0 20px 10px #000;
+	color: #000;
+}
+main [class^="icon-1-link"]:active a {
+	color: #0077B5;
+}
+
